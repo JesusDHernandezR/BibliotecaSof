@@ -1,0 +1,33 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    align-items: center;
+    padding: 10px;
+}
+
+.center {
+    margin: auto;
+    display: block;
+    margin-left: 70px;
+  } 
+header img{
+    height: 70px;
+}
+
+header a{
+    text-decoration: none;
+    color: rgb(51, 122, 51);
+    font-weight: 600;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+header h3{
+    font-size: 20px;
+    color: #9c9ed0;
+}
+

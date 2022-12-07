@@ -1,0 +1,60 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: darkgreen;
+    align-items: center;
+    padding: 10px;
+}
+
+.center {
+    margin: auto;
+    display: block;
+    margin-left: 70px;
+  } 
+header img{
+    height: 70px;
+}
+
+header a{
+    text-decoration: none;
+    color: #9c9ed0;
+    font-weight: 600;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+header h3{
+    font-size: 20px;
+    color: #9c9ed0;
+}
+
+.container{
+    display: flex;
+}
+
+.izquierda{
+    background: linear-gradient(rgb(51, 122, 51),rgb(156, 252, 178));
+    background-color: rgb(156, 252, 178);
+    height: 100vh;
+    width: 60%;
+    text-align: center;
+}
+.izquierda h1{
+    padding-top: 25%;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.izquierda h2{
+    margin-top: 0;
+    font-size: 30px;
+    color: darkgreen;
+}
+.derecha{
+    background-color: antiquewhite;
+    width: 40%;
+    height: 100vh;
+    background-image: url(img/libros.jpeg);
+}

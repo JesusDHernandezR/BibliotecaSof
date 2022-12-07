@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Registrar - Editorial</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='registrar.css'>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/183/183328.png"> 
+    <script src='main.js'></script>
+    <link rel="stylesheet" href="../cabecera.css">
+
+
+    <header>
+        <a href="Miembro.html"><img src="/img/Logo-bibliosoft.png" style="width: 220px;" alt="Este es el logo"></a>        
+        
+        <nav>
+            <a href="registrar.html" style="color: black;" class="">Registrar Libro</a>
+            <a href="consultarLubrosMiembro.html" class="">Consultar Libros</a>
+            <a href="consultarSolicitudes.html" class="nav-link">Solicitudes</a>
+            <a href="librosAceptados.html" class="nav-link">Aceptados</a>            
+            <a href="consultaAutores.html" class="">Autores</a>
+            <a href="../index.html" class="nav-link" onclick="alert('Sesión Cerrada')">Salir</a>
+            
+            
+        </nav>
+    </header>
+</head>
+<body>
+    
+    <div>
+        <form action="" class="form-register" id="formRegistroLibro">
+            <h4>Datos del libro</h4>
+        
+        <input class="controls" type="number" name="" id="numeroSerie" placeholder="Numero de serie"><br><br>
+        
+        <input class="controls" type="text" name="" id="nombreLibro" placeholder="Titulo de libro"><br><br>
+        
+        <select class="controls" name="" id="categoria">
+            <option value="Seleccionar">Seleccionar Categoria</option>
+            <option value="Historia">Historia</option>
+            <option value="Geografia">Geografia</option>
+            <option value="Matematicas">Matematicas</option>
+            <option value="Cosmologia">Cosmologia</option>
+            <option value="Psicologia">Psicologia</option>
+            <option value="Sociologia">Sociologia</option>
+            <option value="Ingenieria">Ingenieria</option>
+        </select>
+        <br><br>
+        
+        <input class="controls" type="text" name="" id="autorLibro" placeholder="Autor"><br><br>
+        
+        <textarea class="controls"  name="" id="resumenLibro" cols="40" rows="5" placeholder="Resumen"></textarea><br><br>
+        <input class="botons" type="button" id="btnGuardar" value="Guardar" onclick="guardarDatos()">
+        
+        </form>
+        <script type="text/javascript" src="registrar.js"></script>
+    </div>
+</body>
+</html>

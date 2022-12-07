@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../cabecera.css">
+    <link rel="stylesheet" href="solicitarPrestamo.css">
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Black_book_icon.svg/1200px-Black_book_icon.svg.png"> 
+
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <title>Solicitar Libro - Biblioteca</title>
+
+    <header>
+        <a href="Usuario.html"><img src="/img/Logo-bibliosoft.png" style="width: 220px;" alt="Este es el logo"></a>        
+        
+        <nav>
+            <a href="#" class="" style="color: black;">Solicitar Libros</a>
+            <a href="consultarLibros.html" class="" >Consultar Libros</a>
+            <a href="../index.html" class="" onclick="alert('Sesión Cerrada')">Salir</a>
+        </nav>
+    </header>
+
+</head>
+<body>
+    <div>
+        <form action="" class="form-register" id="formRegistroLibro">
+            <h4>Datos del libro</h4>
+                
+        <input class="controls" type="text" name="" id="nombreLibro" placeholder="Titulo de libro"><br><br>
+
+        <label class="nfecha" for="fecha">Fecha Devolución:</label>
+        <input class="controls" type="date" id="fecha" name="trip-start"
+        value="2022-12-05"
+        min="2022-12-05" max="2022-12-31"/>
+        
+        <input class="controls" type="text" name="" id="idsoli" placeholder="Id del Solicitante"><br><br>
+
+
+        <textarea class="controls"  name="" id="resumenLibro" cols="40" rows="5" placeholder="Resumen"></textarea><br><br>
+        <input class="btn btn-primary" type="button" id="btnGuardar" value="Guardar" onclick="guardarDatos();window.print()">
+        </form>
+        <script type="text/javascript" src="solicitarLibro.js"></script>
+    </div>
+</body>
+</html>

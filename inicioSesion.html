@@ -1,0 +1,39 @@
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="inicioSesion.css">	
+	<link rel="shortcut icon" href="https://www.freeiconspng.com/uploads/icones-png-theme-home-19.png">
+    <meta chatset="UTF-8">
+	<title>Iniciar Sesión</title>
+</head>
+
+<body>
+    <a href="index.html"><img src="img/volverr.png"></a>
+	<div class="login">
+		<div class="login-screen">
+			<div class="app-title">
+				<h1>Iniciar Sesión</h1>
+				<img className="img-fluid mx-auto d-block rounded"
+                        src="https://static.thenounproject.com/png/2665047-200.png" />
+			</div>
+
+			<form class="login-form" name="login">
+				<div class="control-group">
+				<input type="text" class="login-field" value="" placeholder="username" name="usuario">
+				<label class="login-field-icon fui-user" for="usuario"></label>
+				</div>
+
+				<div class="control-group">
+				<input type="password" class="login-field" value="" placeholder="password" name="password">
+				<label class="login-field-icon fui-lock" for="password"></label>
+				</div>
+
+				<input value="Entrar" target="_parent" onclick="Login()" type="button" class="btn btn-success" />
+				
+			</form>
+		</div>
+	</div>
+</body>
+<script src="inicioSesion.js"></script>
+</html>

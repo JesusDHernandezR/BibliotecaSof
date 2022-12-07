@@ -1,0 +1,97 @@
+
+
+body{
+    
+    margin: 0;
+    background-image: url('../img/libros.jpeg');
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: darkgreen;
+    align-items: center;
+    padding: 10px;
+}
+
+.center {
+    margin: auto;
+    display: block;
+    margin-left: 70px;
+  } 
+header img{
+    height: 70px;
+}
+
+header a{
+    text-decoration: none;
+    color: #9c9ed0;
+    font-weight: 600;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  
+  .form-register {
+    width: 400px;
+    background: #243c26;
+    padding: 30px;
+    margin: auto;
+    margin-top: 90px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    margin-bottom: 80px;
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .controls {
+    width: 100%;
+    background: #243c26;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .form-register .botons {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }

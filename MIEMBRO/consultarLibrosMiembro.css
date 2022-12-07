@@ -1,0 +1,44 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: darkgreen;
+    align-items: center;
+    padding: 10px;
+}
+
+header a{
+    text-decoration: none;
+    color: #9c9ed0;
+    font-weight: 600;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.container{
+    display: flex;
+}
+header img{
+    height: 70px;
+}
+.tabla h2{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+#formBorrar{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#formBorrar h2{
+    margin-bottom: 20px;
+}
+
+body{
+    background-image: url('/img/fondo\ blanco.jpg');
+}

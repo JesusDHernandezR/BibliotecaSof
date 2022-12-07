@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>Consultar Libros - Editorial</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='consultarLibrosMiembro.css'>
+    <link rel="stylesheet" href="../cabecera.css">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/183/183328.png"> 
+
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    
+        <header>
+            <a href="Miembro.html"><img src="/img/Logo-bibliosoft.png" style="width: 220px;" alt="Este es el logo"></a>        
+            
+            <nav>
+                <a href="registrar.html" class="">Registrar Libro</a>
+                <a href="consultarLubrosMiembro.html" style="color: black;" class="">Consultar Libros</a>
+                <a href="consultarSolicitudes.html" class="">Solicitudes</a>
+                <a href="librosAceptados.html" class="">Aceptados</a>            
+                <a href="consultaAutores.html" class="">Autores</a>
+                <a href="../index.html" class="" onclick="alert('Sesión Cerrada')">Salir</a>
+                
+                
+            </nav>
+        </header>
+
+</head>
+
+<body>
+    <div class="tabla">
+        <h2>Lista de Libros</h2>
+        
+        <div class="container">
+            
+            
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Isbn:</th>
+                        <th>Titulo:</th>
+                        <th>Categoria:</th>
+                        <th>Autor:</th>
+                        <th>Resumen:</th>
+                    </tr>
+                </thead>
+                <tbody id="resultados">
+                    
+                </tbody>
+            </table>
+            
+        </div>
+    </div>
+    <script src="consultarLibrosMiembro.js"></script>
+    <br>
+    
+    <hr>
+    
+    
+    <form action="" id="formBorrar">
+        <h2>Eliminar Libro</h2>
+        <input style="height: 35px;" type="text" id="Blibro" placeholder="Isbn del Libro">
+        <button type="submit" class="btn btn-danger" onclick="eliminarLibros()">Rechazar</button>
+    </form>
+        
+
+</body>
+
+</html>
